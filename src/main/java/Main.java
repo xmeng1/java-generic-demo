@@ -17,5 +17,8 @@ public class Main {
         circle.display(x);
         rectangle.display(x);
         square.display(x);
+
+
+        // AbstractShape<String> circle2 = new Circle(1);
     }
 }

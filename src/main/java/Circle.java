@@ -5,7 +5,14 @@
  */
 class Circle extends AbstractShape{
 
+    private double r;
+
     Circle(String s) {
         super(s);
+    }
+
+    Circle(String description, int radius) {
+        super(description);
+        this.r = radius;
     }
 }
